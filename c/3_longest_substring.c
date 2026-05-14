@@ -1,5 +1,12 @@
 #include <string.h>
 
+/**
+ * for each character, track the last known position
+ * calculate the length of the possible substring in-between
+ *
+ * Time complexity: O(N)
+ * Space complexity: O(1)
+ */
 int lengthOfLongestSubstring(char *s)
 {
 	int n = strlen(s);
